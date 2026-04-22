@@ -15,7 +15,11 @@
 
 ## 使用
 
-让 coding agent 直接读取本项目的`SKILL.md` 即可。常见的 coding agent 还支持把本目录作为 skill 目录加载
+让 coding agent 直接读取本项目的`SKILL.md` 即可。
+
+常见的 coding agent 还支持把本目录作为 skill 目录加载：
+
+1. Codex: 将本项目放置于项目当前目录：`<project>/.codex/skills/`（适合当前 repo 专用）或者个人目录 `~/.codex/skills/`（作为全局配置）。在 Codex CLI 中通过 `$vibe-coding-standard` 使用。
 
 ## License
 
